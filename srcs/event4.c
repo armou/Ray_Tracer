@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   event4.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: daugier <daugier@student.42.fr>            +#+  +:+       +#+        */
+/*   By: aoudin <aoudin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/10/05 01:07:19 by David             #+#    #+#             */
-/*   Updated: 2017/10/05 23:06:46 by daugier          ###   ########.fr       */
+/*   Updated: 2017/10/16 19:48:13 by aoudin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,22 +16,22 @@ void	event_change_rgb(t_rt *rtv1)
 {
 	if (rtv1->event.key.keysym.sym == SDLK_x && rtv1->tmp_obj)
 	{
-		rtv1->tmp_obj->color.r = (rtv1->tmp_obj->color.r + 0.05) <= 1\
-			? rtv1->tmp_obj->color.r + 0.05 : 0;
+		rtv1->tmp_obj->color.r = (rtv1->tmp_obj->color.r + 0.1) <= 1\
+			? rtv1->tmp_obj->color.r + 0.1 : 0;
 		rtv1->offset_x = 0;
 		rtv1->offset_y = 0;
 	}
 	if (rtv1->event.key.keysym.sym == SDLK_c && rtv1->tmp_obj)
 	{
-		rtv1->tmp_obj->color.g = (rtv1->tmp_obj->color.g + 0.05) <= 1\
-			? rtv1->tmp_obj->color.g + 0.05 : 0;
+		rtv1->tmp_obj->color.g = (rtv1->tmp_obj->color.g + 0.1) <= 1\
+			? rtv1->tmp_obj->color.g + 0.1 : 0;
 		rtv1->offset_x = 0;
 		rtv1->offset_y = 0;
 	}
 	if (rtv1->event.key.keysym.sym == SDLK_v && rtv1->tmp_obj)
 	{
-		rtv1->tmp_obj->color.b = (rtv1->tmp_obj->color.b + 0.05) <= 1\
-			? rtv1->tmp_obj->color.b + 0.05 : 0;
+		rtv1->tmp_obj->color.b = (rtv1->tmp_obj->color.b + 0.1) <= 1\
+			? rtv1->tmp_obj->color.b + 0.1 : 0;
 		rtv1->offset_x = 0;
 		rtv1->offset_y = 0;
 	}
@@ -47,7 +47,7 @@ void	event_screenshot(t_rt *rtv1, int i)
 		while (++i)
 		{
 			file = ft_strjoinfree(ft_itoa(i - 1), ".png");
-			file = ft_strjoin("save_img/", file);
+			file = ft_strjoin("saved_img/", file);
 			file_tmp = fopen(file, "r");
 			if (file_tmp)
 				fclose(file_tmp);

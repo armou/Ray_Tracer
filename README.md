@@ -1,5 +1,6 @@
-# Ray Tracer Engine and Renderer
+# Ray Tracer engine and renderer
 
+<img align="center" src="saved_img/0.png" width="100%" />
 This program 
 One Paragraph of project description goes here
 
@@ -62,15 +63,15 @@ The shortcut are essential to navigate in the scene and move objects
 
 - <kbd>w</kbd> / <kbd>s</kbd> rotate camera up / down
 - <kbd>a</kbd> / <kbd>d</kbd> rotate camera left / right
-- &uparrow; / &#9658; <kbd>&darr;</kbd> move forward / backward
-- <kbd>&larr</kbd> / <kbd>&rarr</kbd> move left / right
+- <kbd>&uarr;</kbd> / <kbd>&darr;</kbd> move forward / backward
+- <kbd>&larr;</kbd> / <kbd>&rarr;</kbd> move left / right
 - <kbd>tab</kbd> reset to initial position
 
 ### Objects Controls
 
 Select an object with `Left Click`. Unselect with `Right Click`
 
-Object movement and rotation use the same controls as the camera
+Object movement (arrows) and rotation (w/a/s/d) use the same controls as the camera
 
 - <kbd>x</kbd> / <kbd>c</kbd> / <kbd>v</kbd> modify object color with r/g/b values
 - <kbd>+</kbd> / <kbd>-</kbd> modify object size
