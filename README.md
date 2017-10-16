@@ -36,6 +36,8 @@ Start a scene
 
 Modify and play around with the scene files in the Scene folder, you can even make your own !
 
+Send me a notification if you find compatibility issues
+
 ## Clean
 
 Clean your directory using the available commands
@@ -86,7 +88,7 @@ Object movement and rotation use the same controls as the camera
 
 - <kbd>q</kbd> apply filter to the scene (sepia/negative/blue-saturated/grey/red/green/blue)
 - <kbd>k</kbd> / <kbd>l</kbd> + / - antialiasing
-- <kbd>o</kbd> take a screenshot saved in `img/` folder
+- <kbd>o</kbd> save a render in `img/` folder
 - <kbd>m</kbd> activate motion blur
 - <kbd>n</kbd> increase bump mapping intensity (only on objects with bump mapping activated)
 - <kbd>1</kbd> / <kbd>2</kbd> / <kbd>3</kbd> / <kbd>4</kbd> / <kbd>5</kbd> switch scene

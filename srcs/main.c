@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gubourge <gubourge@student.42.fr>          +#+  +:+       +#+        */
+/*   By: aoudin <aoudin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/04/21 11:14:58 by ddufour           #+#    #+#             */
-/*   Updated: 2017/10/05 21:45:06 by gubourge         ###   ########.fr       */
+/*   Updated: 2017/10/16 19:36:03 by aoudin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,10 +18,10 @@ int		init_rt(t_rt *rtv1)
 	init_param(rtv1);
 	SDL_Init(SDL_INIT_VIDEO);
 	if (!(rtv1->window = SDL_CreateWindow("RT FRAGILE", SDL_WINDOWPOS_CENTERED,
-			SDL_WINDOWPOS_CENTERED, WIDTH + 400, HEIGHT, SDL_WINDOW_SHOWN)))
+			SDL_WINDOWPOS_CENTERED, WIDTH, HEIGHT, SDL_WINDOW_SHOWN))) // add + 400 to width to see interface
 		return (-1);
 	rtv1->screen = SDL_GetWindowSurface(rtv1->window);
-	interface(rtv1);
+	// interface(rtv1);
 	rtv1->opencl.sizeline = rtv1->screen->pitch;
 	rtv1->opencl.bpp = rtv1->screen->format->BytesPerPixel;
 	if ((cl_create_kernel(rtv1, &rtv1->kernel, &rtv1->cl_b)) != CL_SUCCESS)
