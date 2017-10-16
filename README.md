@@ -1,6 +1,10 @@
 # Ray Tracer engine and renderer
 
 <img align="center" src="saved_img/0.png" width="100%" />
+<br />
+<br />
+<br />
+<img align="center" src="saved_img/1.png" width="100%" />
 This program 
 One Paragraph of project description goes here
 
@@ -11,7 +15,6 @@ Project created on pure C with SDL (SDL2, SDL2_ttf & SDL2_image) & OpenCL.
 On of our main objective was to create a smooth and responsive ray tracer, that's why we used OpenCL and to reduce the rendering calculation through movement we pixelate the image
 Be sure to check out [Keyboard Shortcuts](#keyboard-shortcuts) to fully enjoy the experience
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
@@ -19,7 +22,7 @@ All frameworks are included
 
 Send me a notification if you find compatibility issues
 
-### Installing
+## Installing
 
 Install with
 
@@ -35,11 +38,11 @@ Start a scene
 ./rt scene/scene7.xml
 ```
 
-Modify and play around with the scene files in the Scene folder, you can even make your own !
+Modify and play around with the scene files available in the Scene folder, you can even make your own !
 
 Send me a notification if you find compatibility issues
 
-## Clean
+### Clean
 
 Clean your directory using the available commands
 
@@ -107,3 +110,5 @@ If you want to contact me, you can send me a mail at aoudin@student.42.fr
 ### Acknowledgments
 
 * My thanks to the [42](http://www.42.fr/) school where we worked countless hours to finish this project
+
+### Additional renders
