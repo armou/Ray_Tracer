@@ -5,16 +5,22 @@
 <br />
 <br />
 <img align="center" src="saved_img/1.png" width="100%" />
-This program 
-One Paragraph of project description goes here
 
-Project created on pure C with SDL (SDL2, SDL2_ttf & SDL2_image) & OpenCL.
+This [Ray Tracer](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) was created as a school project
+
+Ray tracing is  rendering technique using 3d vectors to reproduce the reality effect of lights on shapes
+
+This program used OpenCL for parallel programming to accelerate the movement and the rendering speed
+
+Project created on pure C with SDL (SDL2, SDL2_ttf & SDL2_image) & OpenCL
 
 ## Getting Started
 
-On of our main objective was to create a smooth and responsive ray tracer, that's why we used OpenCL and to reduce the rendering calculation through movement we pixelate the image
-Be sure to check out [Keyboard Shortcuts](#keyboard-shortcuts) to fully enjoy the experience
+On of our main objective was to create a smooth and responsive ray tracer, that's why to reduced the rendering calculation through movement we pixelate the image
 
+<img align="center" src="img/pixel_movement.gif" width="100%" />
+
+Be sure to check out [Keyboard Shortcuts](#keyboard-shortcuts) to fully enjoy the experience
 
 ### Prerequisites
 
