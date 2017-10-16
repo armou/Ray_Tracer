@@ -1,4 +1,4 @@
-# Ray Tracer
+# Ray Tracer Engine and Renderer
 
 This program 
 One Paragraph of project description goes here
@@ -20,7 +20,7 @@ Send me a notification if you find compatibility issues
 
 ### Installing
 
-Command to install
+Install with
 
 ```
 git clone https://github.com/BenjaminSouchet/RT.git ~/RT
@@ -62,7 +62,7 @@ The shortcut are essential to navigate in the scene and move objects
 
 - <kbd>w</kbd> / <kbd>s</kbd> rotate camera up / down
 - <kbd>a</kbd> / <kbd>d</kbd> rotate camera left / right
-- &uarr / &#9658 <kbd>&darr</kbd> move forward / backward
+- &uparrow; / &#9658; <kbd>&darr;</kbd> move forward / backward
 - <kbd>&larr</kbd> / <kbd>&rarr</kbd> move left / right
 - <kbd>tab</kbd> reset to initial position
 
