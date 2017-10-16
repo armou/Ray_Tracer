@@ -8,7 +8,9 @@
 
 This [Ray Tracer](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) was created as a school project
 
-Ray tracing is  rendering technique using 3d vectors to reproduce the reality effect of lights on shapes
+Ray tracing is a rendering technique using 3d vectors to reproduce the reality effect of lights on shapes such as Sphere, Cylinder, Cones and Planes
+
+We added the torus and triangle as complex shapes, with more time we could implement compatibility with .3ds or .pov file extension to create more detailed scenes
 
 This program used OpenCL for parallel programming to accelerate the movement and the rendering speed
 
@@ -119,5 +121,3 @@ If you want to contact me, you can send me a mail at aoudin@student.42.fr
 ### Acknowledgments
 
 * My thanks to the [42](http://www.42.fr/) school where we worked countless hours to finish this project
-
-### Additional renders
