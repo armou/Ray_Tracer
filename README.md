@@ -37,7 +37,7 @@ Send me a notification if you find compatibility issues
 Install with
 
 ```
-git clone https://github.com/BenjaminSouchet/RT.git ~/RT
+git clone https://github.com/armou/Ray_Tracer.git ~/RT
 cd ~/RT
 make
 ```
