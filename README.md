@@ -3,6 +3,8 @@
 This program 
 One Paragraph of project description goes here
 
+Project created on pure C with SDL (SDL2, SDL2_ttf & SDL2_image) & OpenCL.
+
 ## Getting Started
 
 On of our main objective was to create a smooth and responsive ray tracer, that's why we used OpenCL and to reduce the rendering calculation through movement we pixelate the image
@@ -18,19 +20,21 @@ Send me a notification if you find compatibility issues
 
 ### Installing
 
-Run the Makefile with a make command (wait a few seconds)
+Command to install
 
 ```
+git clone https://github.com/BenjaminSouchet/RT.git ~/RT
+cd ~/RT
 make
 ```
 
-Then run the binary file with a scene as argument
+Start a scene
 
 ```
 ./rt scene/scene7.xml
 ```
 
-Modify and play around with the scenes in the Scenes folder, you can even make your own !
+Modify and play around with the scene files in the Scene folder, you can even make your own !
 
 ## Clean
 
@@ -87,53 +91,16 @@ Object movement and rotation use the same controls as the camera
 - <kbd>n</kbd> increase bump mapping intensity (only on objects with bump mapping activated)
 - <kbd>1</kbd> / <kbd>2</kbd> / <kbd>3</kbd> / <kbd>4</kbd> / <kbd>5</kbd> switch scene
 
-### Break down into end to end tests
+## Frameworks used
 
-Explain what these tests test and why
+* [SDL](https://www.libsdl.org/) - The graphic library
+* [OpenCL](https://www.khronos.org/opencl/) - API for parallel programming
 
-```
-Give an example
-```
+## Contact & Copyright
 
-### And coding style tests
+Project done with Dorian AUGIER, David DUFOUR & Guillaume BOURGEOIS
+If you want to contact me, you can send me a mail at aoudin@student.42.fr
 
-Explain what these tests test and why
+### Acknowledgments
 
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
-
+* My thanks to the [42](http://www.42.fr/) school where we worked countless hours to finish this project
