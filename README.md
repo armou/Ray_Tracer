@@ -5,6 +5,9 @@ One Paragraph of project description goes here
 
 ## Getting Started
 
+On of our main objective was to create a smooth and responsive ray tracer, that's why we used OpenCL and to reduce the rendering calculation through movement we pixelate the image
+Be sure to check out [Keyboard Shortcuts](#keyboard-shortcuts) to fully enjoy the experience
+
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
@@ -47,13 +50,13 @@ make fclean
 
 ## Keyboard Shortcuts
 
-The shortcut are essential to navigate and move objects
+The shortcut are essential to navigate in the scene and move objects
 
 ### Camera Controls
 
 - <kbd>w</kbd> / <kbd>s</kbd> rotate camera up / down
 - <kbd>a</kbd> / <kbd>d</kbd> rotate camera left / right
-- &uarr / <kbd>&darr</kbd> move forward / backward
+- &uarr / &#9658 <kbd>&darr</kbd> move forward / backward
 - <kbd>&larr</kbd> / <kbd>&rarr</kbd> move left / right
 - <kbd>tab</kbd> reset to initial position
 
