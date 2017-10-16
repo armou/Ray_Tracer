@@ -16,7 +16,9 @@ Project created on pure C with SDL (SDL2, SDL2_ttf & SDL2_image) & OpenCL
 
 ## Getting Started
 
-On of our main objective was to create a smooth and responsive ray tracer, that's why to reduced the rendering calculation through movement we pixelate the image
+On of our main objective was to create a smooth and responsive ray tracer, to reduce the rendering calculation through movement the image is pixelated
+
+The final render is calculated when movement stops
 
 <img align="center" src="img/pixel_movement.gif" width="100%" />
 
@@ -74,6 +76,7 @@ The shortcut are essential to navigate in the scene and move objects
 - <kbd>a</kbd> / <kbd>d</kbd> rotate camera left / right
 - <kbd>&uarr;</kbd> / <kbd>&darr;</kbd> move forward / backward
 - <kbd>&larr;</kbd> / <kbd>&rarr;</kbd> move left / right
+- <kbd>pageup</kbd> / <kbd>pagedown</kbd> move up / down
 - <kbd>tab</kbd> reset to initial position
 
 ### Objects Controls
