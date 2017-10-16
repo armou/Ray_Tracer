@@ -45,31 +45,44 @@ Delete binaries and libraries
 make fclean
 ```
 
-### Keyboard Shortcuts
+## Keyboard Shortcuts
 
 The shortcut are essential to navigate and move objects
 
-# Camera Controls
+### Camera Controls
 
 - <kbd>w</kbd> / <kbd>s</kbd> rotate camera up / down
 - <kbd>a</kbd> / <kbd>d</kbd> rotate camera left / right
-- <kbd>&uarr</kbd> / <kbd>&darr</kbd> Move forward / backward
-- <kbd>&larr</kbd> / <kbd>&rarr</kbd> Move left / right
+- &uarr / <kbd>&darr</kbd> move forward / backward
+- <kbd>&larr</kbd> / <kbd>&rarr</kbd> move left / right
 - <kbd>tab</kbd> reset to initial position
 
-# Objects Controls
+### Objects Controls
 
 Select an object with `Left Click`. Unselect with `Right Click`
 
-Object movement and rotation use the same controls as the camera => <kbd>w</kbd> / 
-                                                        <kbd>s</kbd> / <kbd>a</kbd> / <kbd>d</kbd> 
+Object movement and rotation use the same controls as the camera
 
-- <kbd></kbd>
-- <kbd></kbd>
-- <kbd></kbd>
-- <kbd></kbd>
-- <kbd></kbd>
-- <kbd></kbd>
+- <kbd>x</kbd> / <kbd>c</kbd> / <kbd>v</kbd> modify object color with r/g/b values
+- <kbd>+</kbd> / <kbd>-</kbd> modify object size
+- <kbd>f</kbd> change object texture (note that some textures are only available for specific object type e.g Sphere)
+- <kbd>n</kbd> modify the intensity of normal variation for bump mapping
+- <kbd>delete</kbd> delete object
+- <kbd>z</kbd> print object informations on the terminal
+- <kbd>i</kbd> add sphere (on current position)
+- <kbd>u</kbd> add torus (on current position)
+- <kbd>y</kbd> add plan (on current position)
+- <kbd>t</kbd> add light (on current position)
+- <kbd>r</kbd> add triangle (on current position)
+
+### Options Controls
+
+- <kbd>q</kbd> apply filter to the scene (sepia/negative/blue-saturated/grey/red/green/blue)
+- <kbd>k</kbd> / <kbd>l</kbd> + / - antialiasing
+- <kbd>o</kbd> take a screenshot saved in `img/` folder
+- <kbd>m</kbd> activate motion blur
+- <kbd>n</kbd> increase bump mapping intensity (only on objects with bump mapping activated)
+- <kbd>1</kbd> / <kbd>2</kbd> / <kbd>3</kbd> / <kbd>4</kbd> / <kbd>5</kbd> switch scene
 
 ### Break down into end to end tests
 
